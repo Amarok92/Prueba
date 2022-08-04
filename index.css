@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* font-family: 'Inter', sans-serif; */
+}
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        
+      }
+
+      .swiper {
+        width: 105%;
+        height: 50%;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+    .card{
+        position: relative;
+        width: 400px;
+        height: 500px;
+        background: rgba(226, 216, 216, 0.13);
+        box-shadow: 15px 15px 60px rgba(0,0,0,0.25);
+        padding: 20px;
+        line-height: 20px;
+        
+    }
+
+    .card .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .card .top .userDetails{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .card .top .userDetails .profile_img{
+        position: relative;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 8px;
+    }
+
+    .cover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .card .top .userDetails h3{
+        font-size: 16px;
+        color: #4d4d4f;
+        font-weight: 500;
+        line-height: 1em;
+    }
+
+    .card .top .userDetails h3 span{
+        font-size: 0.75em;
+    }
+
+    .dot{
+        transform: scale(0.6);
+        cursor: pointer;
+    }
+
+    .actionBtns{
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .actionBtns img{
+        max-width: 24px;
+        cursor: pointer;
+    }
+
+    actionBtns .left img{
+        margin-right: 8px;
+
+    }
+
+    .likes{
+        font-weight: 500;
+        margin-top: 5px;
+        font-size: 16px;
+        color: black;
+    }
+
+    .message b{
+        color: #1d92ff;
+        cursor: pointer;
+    }
+
+    .comments{
+        margin-top: 10px;
+        font-weight: 400;
+        color: #999;
+    }
+
+    .addComments{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .addComments .userImg{
+      position: relative;
+      min-width: 30px;
+      height: 30px;
+    }
+
+    .Post {
+       
+        width: 100%;
+        color: #1d92ff;
+        text-align: right;
+        justify-content: space-between;
+
+        
+    }
+
+
+    .options {
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    }

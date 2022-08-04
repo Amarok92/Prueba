@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Prueba Técnica</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="card">
+      <div class="top">
+        <div class="userDetails">
+          <div class="profile_img">
+            <img
+              src="image/perfil.jpg"
+              class="cover"
+              width="50px"
+              height="50px"
+              alt="foto"
+            />
+          </div>
+          <h3><b>Andrés Tovar </b> <br /><span>Pasto,colombia</span></h3>
+        </div>
+        <div></div>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="actionBtns">
+        <div class="left">
+          <img src="image/heart.png" class="heart" onclick="likeButton()" />
+          <img src="image/comment.png" />
+          <img src="image/share.png" />
+        </div>
+        <div class="rigth">
+          <img src="image/bookmark.png" />
+        </div>
+      </div>
+      <h4 class="likes">6,389 likes</h4>
+      <h3 class="message">
+        <b>Andrés Tovar,</b> Gracias por la oportunidad de poder ingresar a su
+        compañia
+      </h3>
+      <button class="Post">Post</button>
+      <p class="Post"></p>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
